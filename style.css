@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap');
 * { cursor: url(''), auto !important; } a:hover, img:hover { cursor: url(''), auto !important;}
 :root{
---or2: #F17B74;
+--or2: #baf1b2;
 --wh: #FDF4E7;
---bei: #EDC0AB;
---or: #D9896E;
+--bei: #d8f5d4;
+--or: #82cb77;
 --pi: #b36b6b;
 --pi2: #d69387;
---gr: #bcbc4c;
---gr2: #6c6c2c;
+--gr: #adeec9;
+--gr2: #8bd1aa;
 --font: "Overlock", sans serif;}
 .alert {
 	background: var(--gr);
