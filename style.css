@@ -4,8 +4,8 @@
 --or2: #baf1b2;
 --wh: #ffffff;
 --bei: #d8f5d4;
---or: #82cb77;
---pi: #b36b6b;
+--or: #a9c684;
+--pi: #d7456e;
 --pi2: #d69387;
 --gr: #5e803d;
 --gr2: #9abfb0;
@@ -87,7 +87,7 @@ a, .d-lg-inline, #lblCharacterCounter {
 	transition: .2s ease-in-out;
 }
 .progress {background:rgb(255 255 255 / 29%)!important;border-radius:100px;margin-bottom:2px;}
-.bg-warning, .bg-danger, .bg-info, .bg-success, .bg-primary {background:linear-gradient(90deg, var(--gr), var(--gr2))!important;border-radius:100px;border:1px solid var(--gr2);}
+.bg-warning, .bg-danger, .bg-info, .bg-success, .bg-primary {background:linear-gradient(90deg, var(--gr), var(--gr2))!important;border-radius:100px;border:1px solid var(--pi);}
 body {
 	background-image: url('https://i.pinimg.com/1200x/6e/b5/36/6eb5368fd6611526f8d69411116e988e.jpg');
 	background-size: contain;background-repeat: repeat-x;
