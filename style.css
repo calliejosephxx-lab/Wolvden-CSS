@@ -12,17 +12,17 @@
 --bg: #00800080
 --font: "Overlock", sans serif;}
 .alert {
-	background: var(--gr);
+	background: var(--bg);
 	border-radius: 25px;
-	border: 2px solid var(--gr2);
+	border: 2px solid var(--bg);
 	color: var(--wh);
-	text-shadow: 0 0 2px var(--gr2);
+	text-shadow: 0 0 2px var(--bg);
 	margin-top: 1rem;
 }
 #header > nav.navbar.navbar-status.navbar-expand > div > button {color: var(--wh)!important;}
 #header > nav.navbar.navbar-status.navbar-expand > div > button:focus {box-shadow: none;}
 #header .navbar-main {
-	background-color: var(--gr);
+	background-color: var(--bg);
 	margin-top:1.5rem;
 	border-radius: 30px 30px 0px 0px;
 }
@@ -51,8 +51,8 @@
 }
 #header .navbar-status {
 	border-radius: 0px 0px 30px 30px;
-	background-color: var(--gr2);
-	border-top: 5px groove var(--gr);
+	background-color: var(--bg);
+	border-top: 5px groove var(--bg);
 	font-size: 13px;
 	text-transform: lowercase;
 }
@@ -88,7 +88,7 @@ a, .d-lg-inline, #lblCharacterCounter {
 	transition: .2s ease-in-out;
 }
 .progress {background:rgb(255 255 255 / 29%)!important;border-radius:100px;margin-bottom:2px;}
-.bg-warning, .bg-danger, .bg-info, .bg-success, .bg-primary {background:linear-gradient(90deg, var(--gr), var(--gr2))!important;border-radius:100px;border:1px solid var(--pi);}
+.bg-warning, .bg-danger, .bg-info, .bg-success, .bg-primary {background:linear-gradient(90deg, var(--bg), var(--gr))!important;border-radius:100px;border:1px solid var(--wh);}
 body {
 	background-image: url('https://i.pinimg.com/1200x/6e/b5/36/6eb5368fd6611526f8d69411116e988e.jpg');
 	background-size: contain;background-repeat: repeat-x;
@@ -104,7 +104,7 @@ body {
 #main h1:before, #main h1:after{font-family: 'Font Awesome 5 Free';content:'\f7ff';font-size: 12px;margin: 1rem;}
 #sidebar {background: transparent;}
 #sidebar .card {
-	background: var(--gr);
+	background: var(--br);
 	border-radius: 20px;
 	border-bottom: none;
 	color: var(--wh);
@@ -182,8 +182,8 @@ img.rounded-bottom {
 	color: var(--wh);
 	border: 2px solid var(--gr);
 }
-.s-chat-message {background: var(--gr)!important;}
-#chatMessagePinned{background-color: var(--gr)!important;border-bottom:none!important;}
+.s-chat-message {background: var(--bg)!important;}
+#chatMessagePinned{background-color: var(--bg)!important;border-bottom:none!important;}
 #chatMessagePinned.s-chat-message__pinned .s-chat-message_content{color:var(--gr2);}
 #chatMessagePinned.s-chat-message__pinned .s-chat-message_content a{color:var(--wh)!important;}
 .s-chat-sidebar #label_currentChannel,#fra_chatContainer #txtChatInput {
