@@ -1,21 +1,18 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap');
 
-/* 2. Apply font to entire page */
-body {
+body.theme-default {
     font-family: 'Overlock', sans-serif !important;
+
+    /* Background image */
+    background: url("https://i.pinimg.com/1200x/6e/b5/36/6eb5368fd6611526f8d69411116e988e.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
 }
 
-/* 3. Background image for the main Den container */
-#main-content,
-#content {
-    background-image: url("YOUR_BACKGROUND_IMAGE_URL_HERE") !important;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-
-    /* 4. Foreground box transparency */
-    background-color: rgba(0,0,0,0.6) !important; /* translucent dark grey */
-    color: #ffffff !important; /* text color */
+/* Foreground box */
+.row.justify-content-end {
+    background-color: rgba(0, 0, 0, 0.6) !important; /* translucent dark grey */
+    color: #ffffff !important; /* white text */
     border-radius: 12px !important;
     padding: 20px !important;
 }
