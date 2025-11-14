@@ -1,41 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&display=swap');
-body, * {
-font-family: 'Overlock', sans-serif !important;
-}
 
 body {
-background: url ("https://i.pinimg.com/1200x/86/52/9b/86529b7e80ed7a13a2dea683e73a69f7.jpg") no-repeat center center fixed !important;
-background-size: cover !important;
+    font-family: 'Overlock', sans-serif !important;
+    
+    background: url("https://i.pinimg.com/1200x/86/52/9b/86529b7e80ed7a13a2dea683e73a69f7.jpg") no-repeat center center fixed !important;
+    background-size: cover !important;
 }
 
+/* Foreground content box */
 #main,
 #content {
-background: rgba (0,0,0,0.6) !important; /*translucent dark grey*/
-color: #ffffff !important; /*light text*/
-border-radius: 12px !important;
-padding: 20px !important;
+    background: rgba(0,0,0,0.6) !important; /* translucent dark grey */
+    color: #ffffff !important; /* white text */
+    border-radius: 12px !important;
+    padding: 20px !important;
 }
 
+/* Replace buttons */
 img.card-img-top[alt="Pack Dynasty"] {
-content: url("https://static.wikia.nocookie.net/wolvden/images/b/b8/Feather_magpie.png/revision/latest?cb=20210227102149") !important;
+    content: url("https://static.wikia.nocookie.net/wolvden/images/b/b8/Feather_magpie.png/revision/latest?cb=20210227102149") !important;
 }
 
 img.card-img-top[alt="Pack Overview"] {
-content: url("https://static.wikia.nocookie.net/wolvden/images/c/c9/Feather_ibis.png/revision/latest?cb=20200926202620") !important;
+    content: url("https://static.wikia.nocookie.net/wolvden/images/c/c9/Feather_ibis.png/revision/latest?cb=20200926202620") !important;
 }
 
 img.card-img-top[alt="Breeding"] {
-content: url("https://static.wikia.nocookie.net/wolvden/images/c/cd/Feather_gull.png/revision/latest?cb=20200926202630") !important;
+    content: url("https://static.wikia.nocookie.net/wolvden/images/c/cd/Feather_gull.png/revision/latest?cb=20200926202630") !important;
 }
 
 img.card-img-top[alt="Pupsitting"] {
-content: url("https://static.wikia.nocookie.net/wolvden/images/d/dc/Feather_owl.png/revision/latest?cb=20200926202651") !important;
+    content: url("https://static.wikia.nocookie.net/wolvden/images/d/dc/Feather_owl.png/revision/latest?cb=20200926202651") !important;
 }
 
 img.card-img-top[alt="Nesting"] {
-content: url("https://static.wikia.nocookie.net/wolvden/images/9/9a/Feather_roadrunner.png/revision/latest?cb=20200926202648") !important;
+    content: url("https://static.wikia.nocookie.net/wolvden/images/9/9a/Feather_roadrunner.png/revision/latest?cb=20200926202648") !important;
 }
 
 img.card-img-top[alt="Socializing"] {
-content: url("https://static.wikia.nocookie.net/wolvden/images/e/eb/Feather_gyrfalcon.png/revision/latest?cb=20200926202628") !important;
+    content: url("https://static.wikia.nocookie.net/wolvden/images/e/eb/Feather_gyrfalcon.png/revision/latest?cb=20200926202628") !important;
 }
