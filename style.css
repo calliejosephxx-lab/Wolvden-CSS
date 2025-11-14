@@ -2,7 +2,7 @@
 * { cursor: url(''), auto !important; } a:hover, img:hover { cursor: url(''), auto !important;}
 :root{
 --or2: #baf1b2;
---wh: #FDF4E7;
+--wh: #ffffff;
 --bei: #d8f5d4;
 --or: #82cb77;
 --pi: #b36b6b;
@@ -73,7 +73,7 @@
 #main:before {
 	position: absolute;
 	font-family: 'Overlock', var(--font);
-	content:'\f7ff\00a0 css by #6488';
+	content:'';
 	color: var(--wh);
 	visibility: visible;
 	font-size: 9px;
