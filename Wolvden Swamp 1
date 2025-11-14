@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap')
+
+.overlock-regular {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overlock-bold {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.overlock-black {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.overlock-regular-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.overlock-bold-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.overlock-black-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+background-image: url('https://getwallpapers.com/wallpaper/full/5/d/e/1457653-swamp-wallpapers-for-desktop-2560x1700-notebook.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+
+img.card-img-top[alt="Pack Dynasty"] {
+content: url("https://static.wikia.nocookie.net/wolvden/images/9/94/Feather_bluejay.png/revision/latest?cb=20200926192923")
+}
+
+img.card-img-top[alt="Pack Overview"] {
+content: url("https://static.wikia.nocookie.net/wolvden/images/c/cd/Feather_gull.png/revision/latest?cb=20200926202630")
+}
+
+img.card-img-top[alt="Breeding"] {
+content: url("https://static.wikia.nocookie.net/wolvden/images/c/c9/Feather_ibis.png/revision/latest?cb=20200926202620")
+}
+
+img.card-img-top[alt="Pupsitting"] {
+content: url("https://static.wikia.nocookie.net/wolvden/images/d/dc/Feather_owl.png/revision/latest?cb=20200926202651")
+}
+
+img.card-img-top[alt="Nesting"] {
+content: url("https://static.wikia.nocookie.net/wolvden/images/b/b8/Feather_magpie.png/revision/latest?cb=20210227102149")
+}
+
+img.card-img-top[alt="Socializing"] {
+content: url("https://static.wikia.nocookie.net/wolvden/images/2/22/Feather_skua.png/revision/latest?cb=20200926202646")
+}
+
+.row.justify-content-end {
+background-color: rgba (0, 0, 0, 0.6); /*Translucent dark grey*/
+} 
