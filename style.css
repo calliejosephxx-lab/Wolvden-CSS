@@ -103,7 +103,7 @@ body {
 #main h1:before, #main h1:after{font-family: 'Font Awesome 5 Free';content:'\f7ff';font-size: 12px;margin: 1rem;}
 #sidebar {background: transparent;}
 #sidebar .card {
-	background: var(--pi2);
+	background: var(--gr);
 	border-radius: 20px;
 	border-bottom: none;
 	color: var(--wh);
@@ -161,12 +161,12 @@ body {
 	text-align: center;
 }
 .table th {
-	background: var(--pi);
+	background: var(--gr);
 	border-radius: 20px 20px 0px 0px;
 	border-bottom: 5px groove var(--gr);
 }
 .table {
-	background: var(--pi2);
+	background: var(--gr2);
 	border-radius: 20px;
 	border: none;
 }
@@ -179,7 +179,7 @@ img.rounded-bottom {
 }
 #chatMessageContainer {
 	color: var(--wh);
-	border: 2px solid var(--pi);
+	border: 2px solid var(--gr);
 }
 .s-chat-message {background: var(--or2)!important;}
 #chatMessagePinned{background-color: var(--gr)!important;border-bottom:none!important;}
@@ -188,16 +188,16 @@ img.rounded-bottom {
 .s-chat-sidebar #label_currentChannel,#fra_chatContainer #txtChatInput {
 	background: var(--or2);
 	border-radius: 20px;
-	border: 2px var(--pi) solid;
+	border: 2px var(--gr) solid;
 	color: var(--wh);
 }
 #fra_chatContainer #txtChatInput {padding: .6rem;}
 #main .card {background-color: transparent;}
-.bg-light { background: var(--pi)!important;border-radius:25px;box-shadow:0px 0px 10px #520e2169;padding-bottom: 4px!important;color: var(--wh);}
-.bg-dark { background: var(--pi)!important;margin-bottom: 7px;border-radius:20px 20px 0px 0px!important;}
+.bg-light { background: var(--gr)!important;border-radius:25px;box-shadow:0px 0px 10px #520e2169;padding-bottom: 4px!important;color: var(--wh);}
+.bg-dark { background: var(--gr)!important;margin-bottom: 7px;border-radius:20px 20px 0px 0px!important;}
 img.rounded-bottom {padding:5px!important;}
 .table .bottom, .table tfoot td {
-	background: var(--pi);
+	background: var(--gr);
 	border-radius: 0px 0px 20px 20px;
 }
 select.form-control {
@@ -225,7 +225,7 @@ select.form-control:focus {
 #footer {
 	background: var(--bei);
 	margin-top: 1.5em;
-	color: var(--pi2)!important;
+	color: var(--gr2)!important;
 	max-width: 100%;
 }
 #footer a {
